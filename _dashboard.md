@@ -12,8 +12,8 @@ last_updated: "2026-03-01"
 ## At a Glance
 
 ```dataviewjs
-const authorFiles = dv.pages('"authors"').where(p => p.file.name === "_author");
-const studyFiles  = dv.pages('"authors"').where(p => p.type != null);
+const authorFiles = dv.pages('"WP-Author-Study/authors"').where(p => p.file.name === "_author");
+const studyFiles  = dv.pages('"WP-Author-Study/authors"').where(p => p.type != null);
 
 const count = (pages, s) => pages.where(p => p.status === s).length;
 
@@ -35,7 +35,7 @@ dv.paragraph(`**Overall study completion** — ${pct}%`);
 
 ```dataview
 TABLE author AS "Author", type AS "Study Type", file.mtime AS "Last Touched"
-FROM "authors"
+FROM "WP-Author-Study/authors"
 WHERE status = "in-progress"
 SORT author ASC
 ```
@@ -46,7 +46,7 @@ SORT author ASC
 
 ```dataview
 TABLE author AS "Author", status AS "Status", medium AS "Medium", genre AS "Genre", created AS "Created"
-FROM "authors"
+FROM "WP-Author-Study/authors"
 WHERE file.name = "_author"
 SORT author ASC
 ```
@@ -67,7 +67,7 @@ const types = [
 ];
 
 const rows = types.map(t => {
-  const files      = dv.pages('"authors"').where(p => p.type === t.key);
+  const files      = dv.pages('"WP-Author-Study/authors"').where(p => p.type === t.key);
   const complete   = files.where(p => p.status === "complete").length;
   const inProgress = files.where(p => p.status === "in-progress").length;
   const notStarted = files.where(p => p.status === "not-started" || !p.status).length;
@@ -94,13 +94,13 @@ const types = [
   { key: "themes-and-motifs",    label: "Themes"    },
 ];
 
-const authors = dv.pages('"authors"')
+const authors = dv.pages('"WP-Author-Study/authors"')
   .where(p => p.file.name === "_author")
   .sort(p => p.author);
 
 const rows = authors.map(a => {
   const cells = types.map(t => {
-    const f      = dv.pages(`"authors/${a.folder}"`).where(p => p.type === t.key).first();
+    const f      = dv.pages(`"WP-Author-Study/authors/${a.folder}"`).where(p => p.type === t.key).first();
     const status = f?.status ?? "not-started";
     return icon[status] ?? "⬜";
   });

@@ -3,7 +3,7 @@ author: Casualfarmer
 folder: casualfarmer
 genre: cozy-fantasy, cultivation
 medium: web-series, novels
-status: not-started
+status: in-progress
 created: 2026-02-28
 tags:
   - author-study
