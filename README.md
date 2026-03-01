@@ -21,6 +21,7 @@ WP-Author-Study/
 │       ├── 03_world_building_study.md ← World concept, systems, exposition, atmosphere
 │       └── 04_themes_and_motifs.md ← What they're really writing about underneath everything
 ├── _templates/                     ← The master copies of all six study files
+├── _dashboard.md                   ← Live Dataview dashboard — progress at a glance
 ├── new-author.sh                   ← Script to spin up a new author folder
 └── README.md
 ```
@@ -62,4 +63,6 @@ If I want to change the structure — add a section, reframe a heading — I edi
 
 ## Status Tracking
 
-Each file has a `status` field in its front matter — `not-started`, `in-progress`, or `complete`. Mostly useful if I ever set up a Dataview dashboard in Obsidian to see at a glance where things stand.
+Each file has a `status` field in its front matter — `not-started`, `in-progress`, or `complete`. Updating that field is all that's needed to keep the dashboard accurate.
+
+**`_dashboard.md`** — A live Dataview dashboard that reads all front matter automatically. It shows overall completion stats, which authors and studies are currently in progress, per-topic coverage counts across all authors, and a full study matrix (one row per author, one column per study type). Open it in Obsidian to see where things stand at a glance.

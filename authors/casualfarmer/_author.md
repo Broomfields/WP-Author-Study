@@ -1,9 +1,9 @@
 ---
-author: "Casualfarmer"
-folder: "casualfarmer"
-genre:
-medium:  # novel, web serial, short fiction, etc.
-status: not-started  # not-started | in-progress | complete
+author: Casualfarmer
+folder: casualfarmer
+genre: cozy-fantasy, cultivation
+medium: web-series, novels
+status: not-started
 created: 2026-02-28
 tags:
   - author-study
@@ -21,9 +21,9 @@ tags:
 
 ## Works Being Studied
 
-| Title | Series | Genre | Notes |
-| ----- | ------ | ----- | ----- |
-|       |        |       |       |
+| Title               | Series            | Genre                     | Notes    |
+| ------------------- | ----------------- | ------------------------- | -------- |
+| Beware of Chicken 1 | Beware of Chicken | Cozy Fantasy, Cultivation | G.O.A.T. |
 
 ## Study Files
 
