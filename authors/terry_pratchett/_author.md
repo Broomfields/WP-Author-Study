@@ -1,8 +1,8 @@
 ---
 author: "Terry Pratchett"
 folder: "terry_pratchett"
-genre:
-medium:  # novel, web serial, short fiction, etc.
+genre: fantasy, satire, humour
+medium: novels
 status: not-started  # not-started | in-progress | complete
 created: 2026-02-28
 tags:

@@ -1,8 +1,8 @@
 ---
 author: "pirateaba"
 folder: "pirateaba"
-genre:
-medium:  # novel, web serial, short fiction, etc.
+genre: isekai, high-fantasy, slice-of-life, litrpg
+medium: web-series, novels, graphic-novels
 status: not-started  # not-started | in-progress | complete
 created: 2026-02-28
 tags:

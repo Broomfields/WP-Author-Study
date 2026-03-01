@@ -1,7 +1,7 @@
 ---
 author: Casualfarmer
 folder: casualfarmer
-genre: cozy-fantasy, cultivation
+genre: cozy-fantasy, cultivation, slice-of-life, satire
 medium: web-series, novels
 status: in-progress
 created: 2026-02-28

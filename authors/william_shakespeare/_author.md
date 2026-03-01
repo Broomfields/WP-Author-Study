@@ -1,8 +1,8 @@
 ---
 author: "William Shakespeare"
 folder: "william_shakespeare"
-genre:
-medium:  # novel, web serial, short fiction, etc.
+genre: drama, tragedy, comedy, history
+medium: plays
 status: not-started  # not-started | in-progress | complete
 created: 2026-02-28
 tags:

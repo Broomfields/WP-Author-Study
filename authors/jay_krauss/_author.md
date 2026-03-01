@@ -1,8 +1,8 @@
 ---
 author: "Jay Krauss"
 folder: "jay_krauss"
-genre:
-medium:  # novel, web serial, short fiction, etc.
+genre: high-fantasy, cultivation, progression-fantasy, litrpg
+medium: web-series, novels
 status: not-started  # not-started | in-progress | complete
 created: 2026-02-28
 tags:

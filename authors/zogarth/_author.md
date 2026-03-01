@@ -1,8 +1,8 @@
 ---
 author: "Zogarth"
 folder: "zogarth"
-genre:
-medium:  # novel, web serial, short fiction, etc.
+genre: progression-fantasy, litrpg
+medium: web-series, novels, graphic-novels
 status: not-started  # not-started | in-progress | complete
 created: 2026-02-28
 tags:

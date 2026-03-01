@@ -1,8 +1,8 @@
 ---
 author: "Dennis E Taylor"
 folder: "dennis_e_taylor"
-genre:
-medium:  # novel, web serial, short fiction, etc.
+genre: hard-sci-fi, humour
+medium: novels
 status: not-started  # not-started | in-progress | complete
 created: 2026-02-28
 tags:

@@ -1,8 +1,8 @@
 ---
 author: "Brandon Sanderson"
 folder: "brandon_sanderson"
-genre:
-medium:  # novel, web serial, short fiction, etc.
+genre: epic-fantasy, high-fantasy
+medium: novels, graphic-novels
 status: not-started  # not-started | in-progress | complete
 created: 2026-02-28
 tags:
