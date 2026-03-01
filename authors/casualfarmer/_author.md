@@ -21,9 +21,9 @@ tags:
 
 ## Works Being Studied
 
-| Title               | Series            | Genre                     | Notes    |
-| ------------------- | ----------------- | ------------------------- | -------- |
-| Beware of Chicken 1 | Beware of Chicken | Cozy Fantasy, Cultivation | G.O.A.T. |
+| Title               | Series            | Genre                     | Notes                                                                                                                                                          |
+| ------------------- | ----------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Beware of Chicken 2 | Beware of Chicken | Cozy Fantasy, Cultivation | G.O.A.T.<br>I’m studying book 2 as its already established. It was clear it took maybe the first third/half of book 1 for the author to find their feet/style. |
 
 ## Study Files
 
